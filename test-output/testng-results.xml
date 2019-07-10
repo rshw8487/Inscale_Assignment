@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22416" started-at="2019-07-10T02:14:05Z" finished-at="2019-07-10T02:14:27Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="10543" started-at="2019-07-10T02:14:05Z" finished-at="2019-07-10T02:14:15Z">
+      <class name="mutiplebrowser.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:mutiplebrowser.MultiBrowser@68be2bc2]" name="beforeTest" is-config="true" duration-ms="9815" started-at="2019-07-10T10:14:05Z" finished-at="2019-07-10T10:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testScenarios()[pri:0, instance:mutiplebrowser.MultiBrowser@68be2bc2]" name="testScenarios" duration-ms="5" started-at="2019-07-10T10:14:15Z" finished-at="2019-07-10T10:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenarios -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mutiplebrowser.MultiBrowser@68be2bc2]" name="afterTest" is-config="true" duration-ms="706" started-at="2019-07-10T10:14:15Z" finished-at="2019-07-10T10:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- mutiplebrowser.MultiBrowser -->
+    </test> <!-- FirefoxTest -->
+    <test name="chrome" duration-ms="22416" started-at="2019-07-10T02:14:05Z" finished-at="2019-07-10T02:14:27Z">
+      <class name="mutiplebrowser.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:mutiplebrowser.MultiBrowser@14acaea5]" name="beforeTest" is-config="true" duration-ms="21245" started-at="2019-07-10T10:14:05Z" finished-at="2019-07-10T10:14:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testScenarios()[pri:0, instance:mutiplebrowser.MultiBrowser@14acaea5]" name="testScenarios" duration-ms="11" started-at="2019-07-10T10:14:26Z" finished-at="2019-07-10T10:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenarios -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mutiplebrowser.MultiBrowser@14acaea5]" name="afterTest" is-config="true" duration-ms="1155" started-at="2019-07-10T10:14:26Z" finished-at="2019-07-10T10:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- mutiplebrowser.MultiBrowser -->
+    </test> <!-- chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
